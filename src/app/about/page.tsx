@@ -136,7 +136,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="pt-6">
-              <Button asChild variant="outline" className="rounded-full border-blue-500/30 text-blue-400 hover:bg-blue-500/10 h-12 px-8">
+              <Button variant="outline" className="rounded-full border-blue-500/30 text-blue-400 hover:bg-blue-500/10 h-12 px-8">
                 <Link href="/contact">Learn More About Us</Link>
               </Button>
             </div>
@@ -227,7 +227,7 @@ export default function AboutPage() {
               Explore our curated collection of extraordinary destinations and book your next escape today.
             </p>
             <div className="pt-4">
-              <Button asChild size="lg" className="rounded-full bg-white text-black hover:bg-slate-200 h-14 px-10 text-lg font-bold transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-white/10">
+              <Button size="lg" className="rounded-full bg-white text-black hover:bg-slate-200 h-14 px-10 text-lg font-bold transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-white/10">
                 <Link href="/destinations">Explore Destinations</Link>
               </Button>
             </div>

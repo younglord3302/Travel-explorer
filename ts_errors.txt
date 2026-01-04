@@ -1,0 +1,4 @@
+src/app/about/page.tsx(139,23): error TS2322: Type '{ children: Element; asChild: true; variant: "outline"; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+src/app/about/page.tsx(230,23): error TS2322: Type '{ children: Element; asChild: true; size: "lg"; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
