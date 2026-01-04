@@ -148,13 +148,17 @@ export default function Home() {
             transition={{ delay: 1 }}
             className="flex flex-col sm:flex-row gap-6 justify-center"
           >
-            <Button size="lg" className="rounded-full px-8 bg-white text-slate-900 hover:bg-slate-100 transition-all">
-              Explore Destinations
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
-            <Button size="lg" variant="outline" className="rounded-full px-8 border-white/20 text-white hover:bg-white/10 transition-all backdrop-blur-sm">
-              Plan Your Trip
-            </Button>
+            <Link href="/destinations">
+              <Button size="lg" className="rounded-full px-8 bg-white text-slate-900 hover:bg-slate-100 transition-all">
+                Explore Destinations
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+            <Link href="/destinations">
+              <Button size="lg" variant="outline" className="rounded-full px-8 border-white/20 text-white hover:bg-white/10 transition-all backdrop-blur-sm">
+                Plan Your Trip
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
